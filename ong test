@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    
+    <button class="my-button" onclick="location.href='https://www.google.com'">Click me</button>
+   
+    <a href="https://www.google.com" class="button">구글로 이동</a>
+    
+    <title>My Web Page</title>
+    <style>
+         li:nth-child(1) a {
+           position: relative;
+           left: 100px;
+           top: 0px;
+           bottom: 0px;
+
+         }
+        li:nth-child(2) a {
+           position: relative;
+           left: 100px;
+         }
+
+         li:nth-child(3) a {
+           position: relative;
+           left: 100px;
+         }
+
+         li:nth-child(4) a {
+           position: relative;
+           left: 100px;
+         }
+
+
+
+      body {
+        font-size: 16px;
+        font-family: Arial, sans-serif;
+      }
+      h1 {
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to my web page</h1>
+    <p>This is a paragraph of text.</p>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+            
+                
+                <li><a href="https://www.naver.com/">네이버</a></li>
+                <li><a href="https://www.google.co.kr/?hl=ko">구글</a></li>
+                <li><a href="file:///D:/Py%20game/index2.html">다른 사이트</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Hello, world!</h1>
+            <p>This is a simple HTML page.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023, My Company</p>
+    </footer>
+</body>
+</html>
